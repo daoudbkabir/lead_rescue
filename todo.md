@@ -1,0 +1,22 @@
+# Project TODO
+
+- [x] Review attached LeadRescue product specification
+- [x] Initialize Expo mobile project
+- [x] Create mobile interface design plan
+- [x] Generate and configure LeadRescue app icon and branding assets
+- [x] Configure LeadRescue color tokens and typography hierarchy
+- [x] Build shared navigation shell and bottom tab structure
+- [x] Build Overview dashboard with KPIs, revenue recovery chart, AI insight, funnel, and queue preview
+- [x] Build Recovery Queue with filters, priority sorting, assignment, and action feedback
+- [x] Build Leads list with search, status filters, and intent/revenue metadata
+- [x] Build Lead detail view with timeline and recovery actions
+- [x] Build Conversations list and conversation detail flow
+- [x] Build Revenue and Analytics screens
+- [x] Build AI Insights and Recovery Agents screens
+- [x] Build Import Leads flow
+- [x] Build Settings screen and preference controls
+- [x] Add local state for filters, assignments, follow-up completion, and recovered revenue updates
+- [x] Add accessible labels, empty/loading/error states, and press feedback
+- [x] Run typecheck, lint, and tests
+- [x] Validate mobile layouts and key interactions
+- [ ] Save final checkpoint and deliver project version
