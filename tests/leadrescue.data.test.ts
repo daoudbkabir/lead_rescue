@@ -23,4 +23,10 @@ describe("LeadRescue recovery data", () => {
     expect(highIntentLeads.length).toBeGreaterThan(2);
     expect(highIntentLeads.every((lead) => lead.intentScore >= 85)).toBe(true);
   });
+
+  it("surfaces only active recovery work in the overview queue", () => {
+    const priorityQueue = leads.filter((lead) => lead.status === "At Risk" || lead.status === "Hot");
+    expect(priorityQueue).toHaveLength(3);
+    expect(priorityQueue.every((lead) => lead.status !== "Recovered" && lead.status !== "Lost")).toBe(true);
+  });
 });
